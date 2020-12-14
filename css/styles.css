@@ -1326,8 +1326,8 @@ hr {
 /* image styling on the cards  */
 .img-sty {
   border-radius: 50%;
-  width: 30%;
-  height: 30%;
+  width: 100px;
+  height: 100px;
   transform: translateX(100%);
   margin: 10px;
 }
@@ -1422,6 +1422,36 @@ hr {
   font-size: 16px;
   margin: 0;
 }
+
+.icon-size {
+  width: 140px;
+  height: 140px;
+}
+
+.carousel-control-next-icon {
+  /* content: ">";
+  font-size: 25px; */
+  color: red;
+  background-color: red;
+  opacity: .2;
+}
+
+.carousel-control-prev-icon {
+  /* content: "<";
+  font-size: 25px; */
+  color: red;
+  background-color: red;
+  opacity: .2;
+}
+
+.carousel-indicators {
+  transform: translateY(40px);
+}
+
+.carousel-indicators .active {
+  background-color: #f00;
+}
+
 /*end team card stying*/
 
 .section-faq .card {
@@ -1446,6 +1476,10 @@ hr {
 
 .footer-widget a {
   color: #5f6368;
+}
+
+.footer-widget a:hover {
+  color: #222222;
 }
 
 .footer-widget ul {
