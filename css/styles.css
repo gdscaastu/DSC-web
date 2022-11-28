@@ -1329,8 +1329,13 @@ hr {
   border-radius: 50%;
   width: 100px;
   height: 100px;
-  transform: translateX(100%);
-  margin: 10px;
+  /* transform: translateX(100%);
+  margin: 10px; */
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 5px;
+
 }
 
 /* end of image styling on the cards */
@@ -2350,3 +2355,93 @@ hr {
 
 /*end 
 */
+
+
+/* Team Section New */
+
+.team-cards{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: #000 solid 2px; */
+}
+
+.team-cards-title{
+  margin: 0;
+  padding-top: 20px;
+}
+.inner-team-cards{
+  width: 90%;
+  height: auto;
+  padding: 30px ;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  /* border: #15b586 solid 2px; */
+}
+
+.inner-card{
+  height: 300px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10px;
+  padding: 5px;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card-img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: #0080ff solid 2px;
+}
+
+.card-info{
+  padding-top: 20px;
+  text-align: center;
+}
+
+.card-name{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.card-title{
+  font-style: italic;
+}
+
+.card-break{
+  width: 70%;
+  border: #007bff solid 2px;
+}
+
+.card-links{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  gap: 20px;
+  width: 80%;
+  /* border: #0a192f solid 2px; */
+}
+
+.linkedin-link > a > img{
+  width: 30px;
+  height: 30px;
+}
+
+.github-link > a > img{
+  width: 30px;
+  height: 30px;
+}
+
+.team-cards-title > p{
+  font-weight: bold;
+}
